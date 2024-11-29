@@ -1,0 +1,19 @@
+{
+  "id": "multi-party-yebou",
+  "title": "Multi Party Yebou",
+  "version": "1.0.0",
+  "author": "Jérémy Vich <Yebou>",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Permets de gérer des groupes de joueurs.",
+  "esmodules": [
+    "./index.js"
+  ],
+  "scripts": [],
+  "styles": [],
+  "url": "https://github.com/Jeremy-vich/multi-party-yebou",
+  "manifest": "https://github.com/Jeremy-vich/multi-party-yebou/releases/download/FoundryVTT/module.json",
+  "download": "https://github.com/Jeremy-vich/multi-party-yebou/releases/download/FoundryVTT/multi-party-yebou.zip"
+}
