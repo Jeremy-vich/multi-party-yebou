@@ -61,7 +61,7 @@ Hooks.on("renderUserConfig", (app, html, data) => {
 
 Hooks.on("renderChatMessage", (message, html, messageData) => {
     if(messageData.author.getFlag("multi-party-yebou", "partyId") != game.user.getFlag("multi-party-yebou", "partyId") ) {
-        html.addClass("hardHide");
+        html.hide();
     }
 });
 
